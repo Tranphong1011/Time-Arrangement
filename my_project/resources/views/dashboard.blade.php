@@ -24,8 +24,8 @@
         <link rel="stylesheet" href="{{asset('template/plugins/c3/c3.min.css')}}">
         <link rel="stylesheet" href="{{asset('template/plugins/owl.carousel/dist/assets/owl.carousel.min.css')}}">
         <link rel="stylesheet" href="{{asset('template/plugins/owl.carousel/dist/assets/owl.theme.default.min.css')}}">
-        <link rel="stylesheet" href="{{asset('dist/css/theme.min.css')}}">
-        <script src="{{asset('src/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+        <link rel="stylesheet" href="{{asset('template/dist/css/theme.min.css')}}">
+        <script src="{{asset('template/src/js/vendor/modernizr-2.8.3.min.js')}}"></script>
     </head>
 
     <body>
@@ -65,7 +65,7 @@
                                         </a>
                                         <a href="#" class="media">
                                             <span class="d-flex">
-                                                <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                             </span>
                                             <span class="media-body">
                                                 <span class="heading-font-family media-heading">Steve Smith</span> 
@@ -105,7 +105,7 @@
                             </div>
                             <button type="button" class="nav-link ml-10" id="apps_modal_btn" data-toggle="modal" data-target="#appsModal"><i class="ik ik-grid"></i></button>
                             <div class="dropdown">
-                                <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="avatar" src="img/user.jpg" alt=""></a>
+                                <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="avatar" src="{{asset('template/img/user.jpg')}}" alt=""></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                                     <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i> Profile</a>
                                     <a class="dropdown-item" href="#"><i class="ik ik-settings dropdown-icon"></i> Settings</a>
@@ -125,7 +125,7 @@
                     <div class="sidebar-header">
                         <a class="header-brand" href="index.html">
                             <div class="logo-img">
-                               <img src="src/img/brand-white.svg" class="header-brand-img" alt="lavalite"> 
+                               <img src="{{asset('template/src/img/brand-white.svg')}}" class="header-brand-img" alt="lavalite"> 
                             </div>
                             <span class="text">ThemeKit</span>
                         </a>
@@ -429,7 +429,7 @@
                                     <div class="card-body chat-box scrollable" style="height:300px;">
                                         <ul class="chat-list">
                                             <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/1.jpg" alt="user"></div>
+                                                <div class="chat-img"><img src="{{asset('template/img/users/1.jpg')}}" alt="user"></div>
                                                 <div class="chat-content">
                                                     <h6 class="font-medium">James Anderson</h6>
                                                     <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing &amp; type setting industry.</div>
@@ -437,7 +437,7 @@
                                                 <div class="chat-time">10:56 am</div>
                                             </li>
                                             <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/2.jpg" alt="user"></div>
+                                                <div class="chat-img"><img src="{{asset('template/img/users/2.jpg')}}" alt="user"></div>
                                                 <div class="chat-content">
                                                     <h6 class="font-medium">Bianca Doe</h6>
                                                     <div class="box bg-light-info">It’s Great opportunity to work.</div>
@@ -458,7 +458,7 @@
                                                 <div class="chat-time">10:59 am</div>
                                             </li>
                                             <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/3.jpg" alt="user"></div>
+                                                <div class="chat-img"><img src="{{asset('template/img/users/3.jpg')}}" alt="user"></div>
                                                 <div class="chat-content">
                                                     <h6 class="font-medium">Angelina Rhodes</h6>
                                                     <div class="box bg-light-info">Well we have good budget for the project</div>
@@ -779,7 +779,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/1.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
@@ -794,7 +794,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/2.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Garrett Winters</td>
                                             <td>Accountant</td>
                                             <td>Tokyo</td>
@@ -809,7 +809,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/3.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Ashton Cox</td>
                                             <td>Junior Technical Author</td>
                                             <td>San Francisco</td>
@@ -824,7 +824,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/4.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Cedric Kelly</td>
                                             <td>Senior Javascript Developer</td>
                                             <td>Edinburgh</td>
@@ -839,7 +839,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/5.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/5.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Airi Satou</td>
                                             <td>Accountant</td>
                                             <td>Tokyo</td>
@@ -854,7 +854,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/1.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Brielle Williamson</td>
                                             <td>Integration Specialist</td>
                                             <td>New York</td>
@@ -869,7 +869,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/2.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Herrod Chandler</td>
                                             <td>Sales Assistant</td>
                                             <td>San Francisco</td>
@@ -884,7 +884,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/3.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Rhona Davidson</td>
                                             <td>Integration Specialist</td>
                                             <td>Tokyo</td>
@@ -899,7 +899,7 @@
                                                     <span class="custom-control-label">&nbsp;</span>
                                                 </label>
                                             </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
+                                            <td><img src="{{asset('template/img/users/4.jpg')}}" class="table-user-thumb" alt=""></td>
                                             <td>Colleen Hurst</td>
                                             <td>Javascript Developer</td>
                                             <td>San Francisco</td>
@@ -929,37 +929,37 @@
                             <div class="list-group row">
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Gene Newman">
                                     <figure class="user--online">
-                                        <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Gene Newman</span>  <span class="username">@gene_newman</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Billy Black">
                                     <figure class="user--online">
-                                        <img src="img/users/2.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/2.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Billy Black</span>  <span class="username">@billyblack</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Herbert Diaz">
                                     <figure class="user--online">
-                                        <img src="img/users/3.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/3.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Herbert Diaz</span>  <span class="username">@herbert</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Sylvia Harvey">
                                     <figure class="user--busy">
-                                        <img src="img/users/4.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/4.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Sylvia Harvey</span>  <span class="username">@sylvia</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item active" data-chat-user="Marsha Hoffman">
                                     <figure class="user--busy">
-                                        <img src="img/users/5.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/5.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Marsha Hoffman</span>  <span class="username">@m_hoffman</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Mason Grant">
                                     <figure class="user--offline">
-                                        <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Mason Grant</span>  <span class="username">@masongrant</span> </span>
                                 </a>
                                 <a href="javascript:void(0)" class="list-group-item" data-chat-user="Shelly Sullivan">
                                     <figure class="user--offline">
-                                        <img src="img/users/2.jpg" class="rounded-circle" alt="">
+                                        <img src="{{asset('template/img/users/2.jpg')}}" class="rounded-circle" alt="">
                                     </figure><span><span class="name">Shelly Sullivan</span>  <span class="username">@shelly</span></span>
                                 </a>
                             </div>
@@ -980,7 +980,7 @@
                                     <div class="message media reply">
                                         <figure class="user--online">
                                             <a href="#">
-                                                <img src="img/users/3.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/3.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -990,7 +990,7 @@
                                     <div class="message media">
                                         <figure class="user--online">
                                             <a href="#">
-                                                <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -1000,7 +1000,7 @@
                                     <div class="message media reply">
                                         <figure class="user--offline">
                                             <a href="#">
-                                                <img src="img/users/5.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/5.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -1011,7 +1011,7 @@
                                     <div class="message media">
                                         <figure class="user--online">
                                             <a href="#">
-                                                <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -1021,7 +1021,7 @@
                                     <div class="message media reply">
                                         <figure class="user--busy">
                                             <a href="#">
-                                                <img src="img/users/5.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/5.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -1031,7 +1031,7 @@
                                     <div class="message media">
                                         <figure class="user--online">
                                             <a href="#">
-                                                <img src="img/users/1.jpg" class="rounded-circle" alt="">
+                                                <img src="{{asset('template/img/users/1.jpg')}}" class="rounded-circle" alt="">
                                             </a>
                                         </figure>
                                         <div class="message-body media-body">
@@ -1164,10 +1164,10 @@
         <script src="{{asset('template/plugins/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js')}}"></script>
         <script src="{{asset('template/plugins/d3/dist/d3.min.js')}}"></script>
         <script src="{{asset('template/plugins/c3/c3.min.js')}}"></script>
-        <script src="{{asset('js/tables.js')}}"></script>
-        <script src="{{asset('js/widgets.js')}}"></script>
-        <script src="{{asset('js/charts.js')}}"></script>
-        <script src="{{asset('dist/js/theme.min.js')}}"></script>
+        <script src="{{asset('template/js/tables.js')}}"></script>
+        <script src="{{asset('template/js/widgets.js')}}"></script>
+        <script src="{{asset('template/js/charts.js')}}"></script>
+        <script src="{{asset('template/dist/js/theme.min.js')}}"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
