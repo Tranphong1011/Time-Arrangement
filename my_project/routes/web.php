@@ -19,6 +19,17 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+Route::get('/test', function () {
+    return view('test');
+});
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');  // trả về from login
+
+
+
 
 Auth::routes();
 
